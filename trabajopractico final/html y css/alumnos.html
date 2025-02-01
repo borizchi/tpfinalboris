@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+
+
+    
+
+
+    
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navegación -->
+    <nav class="bg-[#00133e] fixed top-0 left-0 w-full flex items-center justify-between p-[15px] px-[20px] h-[70px] z-[9999] uppercase transition-colors duration-300 ease-in-out"">
+        <div class="space-x-4 >
+          < A href="../" class="text-white hover:text-red-500">  </a>
+            
+            <a href="../info/infografia.html" class="text-white hover:text-red-500"> Historia </a>
+            <a href="../delegacion/delegacion-argentina.html" class="text-white hover:text-red-500"> Maestros </a>
+            <a href="../medallas/medallero-final.html" class="text-white hover:text-red-500"> Alumnos </a>
+            <a href="../contacto/contacto.html" class="text-white hover:text-red-500">Contactos </a>
+        </div>
+    </nav>
+    
+    <!-- Encabezado -->
+    <header class="bg-black text-white py-4 text-center mt-[20px]">
+        <h1 class="font-bold text-left text-3xl"><br><br>Tang Soo Do  </h1>
+           <h2 class="relative top-[70px] list-none m-0 p-0 flex justify-end text-[20px]"> <br><strong>Bustamante Studio </strong></h2>
+        <h3 class="text-lg relative top-[70px] m-[10px] list-none m-0 p-0 flex justify-end text-[20px]">Argentina - Catamarca</h3>
+        <div class="flex justify-center mt-4">
+            <img src="../img/img_logo.png" 
+                alt="Logo Tang Soo Do" class="w-32 h-auto">
+        </div>
+    </header>
+
+    
+
+    <!-- Contenido Principal -->
+    <main class="bg-gray-200 p-6 h-full">
+       
+
+        <form class="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg">
+            <h2 class="text-2xl font-bold text-center mb-4">Formulario de Inscripción</h2>
+            
+            <div class="mb-4">
+              <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre completo" required class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+          
+            <div class="mb-4">
+              <label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+              <input type="email" id="email" name="email" required placeholder="Ingresa tu nombre completo" required class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+          
+            <div class="mb-4">
+              <label for="telefono" class="block text-sm font-medium text-gray-700">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" required class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+          
+            <div class="mb-4">
+              <label for="Horarios" class="block text-sm font-medium text-gray-700">Turno</label>
+              <select id="curso" name="curso" required class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="">Selecciona horario</option>
+                <option value="matematicas">Mañana</option>
+                <option value="programacion">Tarde</option>
+                <option value="fisica">Noche</option>
+              </select>
+            </div>
+          
+            <div class="mb-4">
+              <label for="comentarios" class="block text-sm font-medium text-gray-700">Comentarios adicionales</label>
+              <textarea id="comentarios" name="comentarios" rows="4" class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+          
+            <div class="flex justify-center">
+              <button type="submit" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Enviar</button>
+            </div>
+          </form>
+    </main>
+
+     <!-- Pie de Página -->
+     <footer id="contacto" class="bg-black text-white text-center py-6 mt-8">
+      <h2 class="text-2xl font-bold">Tang Soo Do</h2>
+      <p><strong>El arte marcial de la disciplina y la fuerza</strong></p>
+      <h2 class="mt-4">Comienza ahora</h2>
+     
+     
+  </footer>
